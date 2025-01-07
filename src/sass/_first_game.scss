@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.h3-year4 {
+  color: #000;
+  font-family: Montserrat Alternates;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-bottom: 46px;  
+}
+
+.year4-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 20px;
+}
+
+.button-year4 {
+  display: flex;
+  align-items: center; 
+  margin-left: 130px;
+}
+
+.year4 {
+  width: 314px;
+  height: 50px;
+  outline: none;
+  border-radius: 26px;
+  border: none;
+  background-color: #00000040;
+  font-size: 18px;
+  padding: 10px;
+  box-shadow: 3px 3px 3px gray;
+  margin-right: 140px;
+}
+
+.check-button {
+  cursor: pointer;
+  background-color: #000000;
+  border: none;
+  height: 50px;
+  border-radius: 0 20px 20px 0px;
+  font-size: 16px;
+  width: 55px;
+  box-shadow: 3px 3px 3px gray;
+  margin-left: -190px;
+}
+
+.icon-search {
+  fill: white;
+  width: 84px;
+  height: 84px;
+  display: flex;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+.result-year4{
+  display: flex;
+  align-items: center;
+  text-align: right;
+  font-family: Montserrat Alternates;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  margin-left: 350px;  
+  width: 450px; ;
+}

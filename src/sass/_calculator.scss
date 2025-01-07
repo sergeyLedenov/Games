@@ -1,0 +1,120 @@
+.calculator {
+    display: flex;
+    justify-content: center;
+}
+
+#answer {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    background: #D7D7D7;
+    text-align: center; 
+    height: 45px;
+    margin-top: 17px;
+    margin-left: 48px;
+    width: 200px;
+    text-align: center;
+}
+
+.first_number {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #D7D7D7;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    height: 45px;
+    border: none;
+    margin-top: 17px;
+    margin-right: 68px;
+    outline: none;
+    text-align: center;
+    width: 170px;
+}
+
+.second_number {
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 20px;
+    background: #D7D7D7;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    border: none;
+    height: 45px;
+    margin-top: 17px;
+    margin-left: 68px;
+    outline: none;
+    text-align: center;
+    width: 170px;
+
+}
+
+.minus {
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+
+.equal {
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    padding: 5px 13px;
+    align-items: flex-start;
+    gap: 10px;
+    color:white; 
+    height: 45px; 
+    margin-top: 17px; 
+    margin-left: 48px;
+ 
+}
+
+.plus {
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+
+.mult {
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+
+.dil {
+    border-radius: 20px;
+    background: #000;
+    box-shadow: 3px 3px 0px 0px rgba(0, 0, 0, 0.25);
+    display: inline-flex;
+    padding: 5px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    color: white;
+}
+
+.signs{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-gap: 10px;
+justify-content: center;
+margin-bottom: 10px;
+}

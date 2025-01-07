@@ -1,0 +1,77 @@
+.Gdino {
+    border-bottom: 1.5px solid black;
+    margin: auto;
+    margin-top: 15px;
+    height: 200px;
+    width: 600px;
+}
+
+#dino {
+    width: 40px;
+    height: 40px;
+    background-image: url(../img/photo_2023-12-22_05-21-50.jpg);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 90px;
+}
+
+.dinoRun {
+    animation: dinoRun 0.2s infinite linear;
+}
+
+@keyframes dinoRun {
+    0% {
+        background-image: url(../img/photo_2023-12-22_05-20-30.jpg);
+    }
+    100% {
+        background-image: url(../img/photo_2023-12-22_05-21-35.jpg);
+    }
+}
+
+.dinoDead {
+    background-image: url(../img/photo_2023-12-22_05-21-40.jpg);
+}
+
+#cactus {
+    width: 20px;
+    height: 40px;
+    background-image: url(../img/photo_2023-12-22_05-21-45.jpg);
+    background-size: 20px 40px;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 49;
+    left: 579px;
+}
+
+.cactusMove {
+    animation: cactusMove 1.5s infinite linear;
+}
+
+@keyframes cactusMove {
+    0% {
+        left: 579px;
+    }
+    100% {
+        left: 0px;
+    }
+}
+
+.jump {
+    animation: jump 0.5s linear;
+}
+
+@keyframes jump  {
+    0% {
+        top: 90;
+    }
+    40% {
+        top: 20px;
+    }
+    60% {
+        top: 20px;
+    }
+    100% {
+        top: 90;
+    }
+}

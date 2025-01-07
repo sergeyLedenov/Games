@@ -1,0 +1,78 @@
+
+.footer {
+    display: flex; 
+    justify-content: space-around;
+    margin: 60px 175px;  
+}
+
+.logo-footer {
+    width: 165px;
+    height: 70px;
+    margin-right: 185px;
+}
+
+.ul-kontakts {
+    list-style: none;
+    margin-right: 187px;
+    margin-top: 0;
+}
+
+.p-kontakts {
+    margin: 0;
+    color: #000;
+    // font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+}
+
+.email-footer {
+    display: flex;
+    align-items: center;
+    padding-top: 36px;
+}
+
+.input-footer {
+    display: inline-flex;
+    padding: 10px 80px 10px 10px;
+    align-items: flex-start;
+    gap: 10px;
+    width: 204px;
+    height: 35px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: #D7D7D7;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 10px;
+    margin-right: 36px;
+
+
+}
+
+.subscribe {
+    width: 107px;
+    height: 35px;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 26px;
+    border: none;
+    background-color: #000;
+}
+
+.info-sub {
+    color: #000;
+    font-size: 6px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 18px;
+}
+
